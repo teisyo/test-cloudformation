@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ECS Test App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>ECS Test Application</h1>
+        </header>
+        <main>
+            <div class="card">
+                <h2>Welcome!</h2>
+                <p>これはECSで動作するテストアプリケーションです。</p>
+                <button id="clickBtn" class="btn">クリックしてください</button>
+                <div id="message" class="message"></div>
+            </div>
+            <div class="status">
+                <h3>システム情報</h3>
+                <p>現在時刻: <span id="currentTime"></span></p>
+                <p>クリック回数: <span id="clickCount">0</span></p>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
