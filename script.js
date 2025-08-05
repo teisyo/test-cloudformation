@@ -1,5 +1,7 @@
+// クリック回数を管理する変数
 let clickCount = 0;
 
+// 現在時刻を更新する関数
 function updateTime() {
     const now = new Date();
     const timeString = now.toLocaleString('ja-JP');
